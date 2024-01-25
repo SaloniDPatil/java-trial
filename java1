@@ -1,0 +1,29 @@
+package strings;
+                      
+public class mutableString47 {
+	public static void main(String[] args) 
+	{             
+		//stringBuffer
+		//StringBuffer name="saloni";/////.....................................................Invalid     but    Stringname="saloni" is valid
+		
+		StringBuffer  name=new StringBuffer("saloni");
+		System.out .println(name);  
+		 name.append("patil");//.........................................................................no need of...........name=name.append("patil");
+		                                                                                                                   // ie s3=s3.append("patil"); IN IMMUTABLE STRING
+	    System.out .println(name);   
+	    
+	    
+	    
+	   // StrinBuilder
+	    StringBuilder  name1=new StringBuilder("saloni");
+		System.out .println(name1);  
+		 name1.append("patil");
+		                                                                                                                 
+	    System.out .println(name1);   
+		
+
+		
+		
+	}
+
+}
